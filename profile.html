@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="shortcut icon" href="websiteimages/websitelogo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="book.html">Book Appointment</a>
+        <a href="Contact.html">Contact-us</a>
+        <a href="account.html">Account</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <br>
+    <h1 class="profile">Update Profile</h1>
+    <hr>
+    <div class="maindiv">
+        <form>
+            <label>Email</label>
+            <input class="inputs" type="email" name="email"><br>
+            <label>Password</label>
+            <input class="inputs" type="password" name="password"><br>
+            <label>Family name</label>
+            <input class="inputs" type="text" name="Familyname"><br>
+            <label>First name</label>
+            <input class="inputs" type="text" name="Firstname"><br>
+            <label>Date of Birth</label>
+            <input class="inputs" type="date" name="DateofBirth"><br>
+            <label>Gender</label>
+            <input class="inputs" type="text" name="Gender"><br>
+            <label>Mobile Number</label>
+            <input class="inputs" type="number" name="phone"><br>
+            <button id="button-savechange" onclick="profileUpdate()">Save change</button>
+        </form>
+    </div>
+    <br><br><hr>
+    <a href="login.html" onclick="acc_delete()" class="delete-profile"><h3>Delete profile</h3></a>
+    <script src="js/script.js"></script> 
+    <script src="js/delete_alert.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>
