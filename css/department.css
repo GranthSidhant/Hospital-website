@@ -1,0 +1,188 @@
+/* Departments Section */
+#departments {
+    padding: 60px 0;
+    background: white;
+  }
+  
+  #departments .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  #departments .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #departments .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #departments .section-title p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  #departments .nav-tabs {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+
+  #departments .nav-item a{
+    text-decoration: none;
+  }
+
+  #departments .nav-item {
+    margin-bottom: 15px;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  #departments .nav-link {
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    color: #555;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  #departments .nav-link:hover,
+  #departments .nav-link.active {
+    background: seagreen;
+    color: #fff;
+    border-color: seagreen;
+  }
+  
+  #departments .tab-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  #departments .tab-pane {
+    display: none;
+    animation: fadeEffect 1.5s;
+  }
+  
+  #departments .tab-pane.active {
+    display: block;
+  }
+  
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #departments .details h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  #departments .details p {
+    margin-bottom: 10px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  #departments .details p.fst-italic {
+    font-style: italic;
+    color: #555;
+  }
+  
+  #departments .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 991px) {
+    #departments .nav-tabs {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #departments .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    #departments .tab-content {
+      margin-top: 20px;
+    }
+  
+    #departments .details {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #departments .nav-tabs {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    #departments .nav-item {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    #departments .details {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #departments .nav-tabs {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #departments .nav-item {
+      width: 100%;
+    }
+  
+    #departments .details {
+      text-align: left;
+    }
+  }
+  
+
+  /* Remove bullets from ul */
+.nav-tabs {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Adjust tab content */
+.tab-content {
+    padding-left: 0;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
