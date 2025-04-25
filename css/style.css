@@ -1,0 +1,586 @@
+/* Style the navigation links */
+/* Common for all the webpages */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+.header{
+    background-color: blue;
+    width: 100%;
+}
+
+nav {
+    text-align: center; /* Center align the navigation links */
+}
+
+nav h3 {
+    display: inline; /* Display each button inline */
+    margin-right: 100px; /* Add some space between the buttons */
+}
+
+/* Style the link text */
+nav h3 a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set link color */
+}
+
+/* Style link hover effect */
+nav h3 a:hover {
+    color: green; /* Change color on hover */
+}
+
+/* Style the logo container */
+.logo-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+}
+
+/* Style the logo */
+.logo-container img {
+    margin-right: 10px; /* Add some space between the image and the text */
+}
+
+
+/* Style the greeting container in index.html */
+.greeting-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Horizontally center the items */
+
+}
+
+/* Style the greeting text */
+.greeting-container h1 {
+    margin-left: 20px; /* Add margin to separate image and text */
+}
+
+
+
+/* Style */
+body {
+    text-align: center; /* Horizontally center the text */
+}
+header {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Align items vertically */
+}
+h1 {
+    margin-top: 0; /* Remove default margin from h1 */
+}
+
+
+
+
+/* profile*/
+.profile{
+  font-family: Arial, Helvetica, sans-serif;  
+}
+.maindiv{
+position: relative;
+top: 5px;
+right:  154px;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.inputs{
+padding: 3px;
+margin: 5px;
+font-size: 18px;
+border: 1px solid #cbcbcb;
+width: 545px;
+background-color: #cbcbcb;
+}
+
+#button-savechange{
+    height: 48px;
+    width: 191px;
+    background-color: rgb(39, 151, 39);
+    border-radius: 18px;
+    border: seagreen;
+    position: relative;
+    top: 19px;
+    left: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    
+}
+
+#button-savechange:hover{
+    background-color: rgb(107, 201, 79);
+    
+ }
+ 
+#delete-profile{
+    position: relative;
+    bottom: 10px;
+    right: 442px;
+    color: rgb(173, 60, 60);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*notification*/
+
+.Notification{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-notification{
+ 
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+    border: 1px solid rgb(223, 220, 220);
+    width: 574px;
+    background-color: rgb(223, 220, 220);
+    position: relative;
+    top: 7px;
+    left: 35px;
+    height: 105px;
+}
+
+/*appointment*/
+
+.Appointment{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.button-consult ,.button-history{
+    height: 48px;
+    width: 222px;
+    background-color: rgb(39, 151, 39);
+    border-radius: 18px;
+    border: seagreen;
+    position: relative;
+    top: 19px;
+    left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;  
+}
+
+.button-consult:hover{
+   background-color: rgb(107, 201, 79);
+   
+}
+
+.button-history:hover{
+    background-color: rgb(107, 201, 79);
+    
+ }
+
+ .image1{
+    height: 226px;
+    width: 225px;
+ }
+ /*account*/
+
+ .account{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .div-m2{
+   position: relative;
+   top: -9px;
+   right: 615px;
+
+ }
+
+ .span-1{
+    position: relative;
+    top: -12px;
+    right: -35px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .s-name{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .div0,.div1,.div2,.div3,.div4{
+    height: 42px;
+    width: 710px;
+    background-color: rgb(39, 151, 39);
+    border-radius: 18px;
+    border: seagreen;
+    position: relative;
+    top: 0px;
+    left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;  
+ }
+
+ .div0:hover{
+    background-color: rgb(107, 201, 79);
+ }
+
+ .profile{
+    text-decoration: none;
+ }
+ .div1:hover{
+    background-color: rgb(107, 201, 79);
+ }
+
+ .div2:hover{
+    background-color: rgb(107, 201, 79);
+ }
+
+ .div3:hover{
+    background-color: rgb(107, 201, 79);
+ }
+
+ .div4:hover{
+    background-color: rgb(107, 201, 79);
+ }
+
+.p0,.p1,.p2,.p3,.p4{
+    text-align: left;
+    position: relative;
+    top: 12px;
+    left: 24px;
+}
+
+.div-m3{
+    position: relative;
+    top: 1px;
+    left: 50px;
+  }
+
+  .logout{
+    color: rgb(173, 60, 60);
+    position: relative;
+    top: 1px;
+    right: 645px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  li{
+    position: relative;
+    top: 1px;
+    right: 10px;
+  }
+
+  /*home*/
+
+.mycareteam{
+    position: relative;
+    top: 3px;
+    right: 454px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-now{
+    position: relative;
+    bottom: 0px;
+    right: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 13px;
+    background-color: rgb(39, 151, 39);
+    border: seagreen;
+    height: 48px;
+    width: 137px;
+    color: white;
+    font-size: 20px;
+}
+
+.book-now:hover{
+    background-color: rgb(107, 201, 79);
+}
+
+.home-div{
+    background-color: rgb(207, 206, 206);
+    height: 223px;
+    width: 1234px;
+    position: relative;
+    left: 135px;
+    
+}
+
+.index-logo{
+    height: 54px;
+    width: 256px;
+    position: relative;
+    top: 20px;
+    left: -448px;
+}
+.para-home, .span-2{
+    font-size: larger;
+   
+}
+
+#red-circle{
+    background-color: red;
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    position: relative;
+    top: -21px;
+    left: 439px;
+}
+
+.para-h3{
+    position: relative;
+    top: -18px;
+    left: -66px;
+
+}
+
+.para-home{
+    position: relative;
+    top: -27px;
+    left: -44px; 
+    font-size: 25px;
+}
+
+.span-2{
+    position: relative;
+    top: -41px;
+    left: -34px; 
+    font-size: 25px;
+}
+
+.custom-button1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 13px;
+    background-color: rgb(39, 151, 39);
+    border: seagreen;
+    height: 43px;
+    width: 589px;
+    color: white;
+    position: relative;
+    top: 24px;
+    left: 31px;
+    font-size: 20px;
+}
+
+.custom-button2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 13px;
+    background-color: rgb(39, 151, 39);
+    border: seagreen;
+    height: 43px;
+    width: 589px;
+    color: white;
+    position: relative;
+    top: 39px;
+    left: 31px;
+    font-size: 20px;
+}
+
+.custom-button1:hover{
+    background-color: rgb(107, 201, 79); 
+}
+
+.custom-button2:hover{
+    background-color: rgb(107, 201, 79); 
+}
+/*book*/
+.book-container{
+    margin-top: 22px;
+    margin-right: 1.5%;
+}
+
+.b1{
+   
+    border-style: solid;
+    border-color: rgb(107, 104, 104);
+    background-color: rgb(221, 221, 221);
+    text-align: justify;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    height: 34px;
+    width: 98.4%;
+   
+}
+
+.b2{
+    
+    border-style: solid;
+    border-color: rgb(107, 104, 104);
+    background-color: rgb(221, 221, 221);
+    text-align: justify;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    height: 35px;
+    width: 98.4%;
+   
+}
+.heading-popular{
+    text-align: justify;
+    position: relative;
+    left: 55px;
+    top: 17px;
+   font-size: 38px;
+}
+
+/*image sizing*/
+.m1, .m2,.m3,.m4,.m5,.m6,.m7{
+height: 100px;
+width: 100px;
+position: relative;
+right: 184px;
+}
+
+.p-1{
+   position: relative; 
+   left: 48px;
+   top: 2px;
+   background-color: rgb(171, 255, 255);
+   height: 103px;
+   width: 469px;
+}
+
+.heading1{
+    position: relative; 
+    left: 20px;
+    bottom: 80px;
+}
+
+.p-2{
+    position: relative; 
+    left: 48px;
+    top: 15px;
+   background-color: rgb(171, 255, 255);
+   height: 103px;
+   width: 469px;
+ }
+ .heading2{
+    position: relative; 
+    left: 43px;
+    bottom: 80px;
+}
+
+ .p-3{
+    position: relative; 
+    left: 48px;
+    top: 30px;
+   background-color: rgb(171, 255, 255);
+   height: 103px;
+   width: 469px;
+ }
+ .heading3{
+    position: relative; 
+    left: 20px;
+    bottom: 80px;
+}
+
+ .p-4{
+    position: relative; 
+    left: 48px;
+    top: 45px;
+   background-color: rgb(171, 255, 255);
+   height: 103px;
+   width: 469px;
+ }
+ .heading4{
+    position: relative; 
+    left: 20px;
+    bottom: 80px;
+}
+
+ .p-5{
+    position: relative; 
+    left: 606px;
+    bottom: 410px;
+   background-color: rgb(171, 255, 255);
+   height: 103px;
+   width: 469px;
+ }
+.heading5{
+    position: relative; 
+    left: 20px;
+    bottom: 80px;
+}
+
+ .p-6{
+    position: relative; 
+    left: 606px;
+    top: -396px;
+    background-color: rgb(171, 255, 255);
+    height: 103px;
+   width: 469px;
+ }
+ .heading6{
+    position: relative; 
+    left: 20px;
+    bottom: 80px;
+}
+
+ .p-7{
+    position: relative; 
+    left: 606px;
+    top: -381px;
+    background-color: rgb(171, 255, 255);
+    height: 103px;
+   width: 469px;
+ }
+.heading7{
+    position: relative; 
+    left: 20px;
+    bottom: 80px;
+}
+
+body{
+    overflow-: hidden;
+}
+
+
+
+a .alert {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #333;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  /* .profile .delete-profile {
+    text-decoration: none;
+  } */
+
+  #speciality h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
